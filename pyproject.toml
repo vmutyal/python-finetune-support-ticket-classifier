@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "support-ticket-classifier"
+version = "0.1.0"
+description = "Baseline and LoRA fine-tuning workflows for support-ticket classification"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "accelerate>=0.30",
+    "datasets>=2.19",
+    "pandas>=2.1",
+    "peft>=0.11",
+    "scikit-learn>=1.4",
+    "torch>=2.2",
+    "transformers>=4.46",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

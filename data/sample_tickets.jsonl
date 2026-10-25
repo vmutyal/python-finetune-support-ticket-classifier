@@ -1,0 +1,12 @@
+{"text":"I was charged twice for my subscription this month.","label":"Billing"}
+{"text":"My invoice includes a fee that does not match my plan.","label":"Billing"}
+{"text":"Please explain the unexpected charge on my latest bill.","label":"Billing"}
+{"text":"I need a receipt for the payment I made yesterday.","label":"Billing"}
+{"text":"The application crashes whenever I open the reports page.","label":"Technical"}
+{"text":"The website returns a 500 error after I submit the form.","label":"Technical"}
+{"text":"My dashboard is loading very slowly today.","label":"Technical"}
+{"text":"I cannot upload a file because the app shows an error.","label":"Technical"}
+{"text":"I cannot reset my password because the link has expired.","label":"Account"}
+{"text":"Please change the email address associated with my account.","label":"Account"}
+{"text":"I am locked out after too many sign-in attempts.","label":"Account"}
+{"text":"How can I update the name on my user profile?","label":"Account"}
